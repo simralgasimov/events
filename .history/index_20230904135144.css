@@ -13,9 +13,7 @@
 .container h1 {
   color: var(--text-light-accent, #ef6d58);
   text-align: center;
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
@@ -30,20 +28,19 @@
   margin-top: 42px;
   color: var(--text-light, #fff);
   text-align: center;
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 56px;
   font-style: normal;
   font-weight: 800;
-  line-height: 64px;
+  line-height: 64px; 
   letter-spacing: -1px;
 }
 
 .container-2 {
   display: flex;
   justify-content: space-between;
+  background-color: violet;
 }
 
 .container .box {
@@ -55,15 +52,14 @@
 
 .container .box .date {
   display: flex;
-
 }
 
 .container .box .date h3 {
   margin-right: 12px;
+
   color: var(--text-light, #fff);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
+
   font-family: Epilogue;
   font-size: 72px;
   font-style: normal;
@@ -75,49 +71,36 @@
 .container .box .date h4 {
   width: 127px;
   color: var(--text-light, #fff);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* H4 */
   font-family: Epilogue;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 32px;
-}
-.container .container-2 .box .hours {
-  display: flex;
-  align-items: center;
-  margin-top: 19px;
-  margin-bottom: 36px;
+  line-height: 32px; /* 133.333% */
 }
 
-.container .container-2 .box .hours p {
-  margin-left: 8px;
+.container p {
+  margin-top: 19px;
+  margin-bottom: 76px;
+
   color: var(--text-light, #fff);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Text */
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
-}
-.container .container-2 .box hr {
-  width: 100%;
-  height: 1px;
-  margin-bottom: 40px;
-  border: none;
-  background: #3a3c56;
+  line-height: 32px; /* 200% */
 }
 
 .container div h5 {
   margin-bottom: 19px;
 
   color: var(--text-light, #fff);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
 
   /* H4 */
   font-family: Epilogue;
@@ -130,9 +113,7 @@
 .container div h6 {
   margin-bottom: 26px;
   color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
 
   /* Text */
   font-family: Epilogue;
@@ -145,9 +126,7 @@
 .container div a {
   text-decoration: none;
   color: var(--text-light, #fff);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
 
   /* Text */
   font-family: Epilogue;
@@ -157,16 +136,19 @@
   line-height: 32px; /* 200% */
 }
 
-button {
+.button {
+  flex: none;
+  justify-content: center;
+  margin-top: 64px;
   padding: 9px 16px;
   width: 170px;
   height: 48px;
-  background: none;
+
   border-radius: 6px;
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-button a {
+.button a {
   color: #fff;
   text-align: center;
   font-family: Epilogue;
@@ -175,9 +157,4 @@ button a {
   font-weight: 900;
   line-height: normal;
   text-transform: uppercase;
-}
-.btn-container {
-  margin-top: 64px;
-  display: flex;
-  justify-content: center;
 }

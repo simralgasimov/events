@@ -55,7 +55,7 @@
 
 .container .box .date {
   display: flex;
-
+  align-items: center;
 }
 
 .container .box .date h3 {

@@ -55,7 +55,7 @@
 
 .container .box .date {
   display: flex;
-
+  align-items: center;
 }
 
 .container .box .date h3 {
@@ -158,6 +158,11 @@
 }
 
 button {
+  /* flex: none;
+  justify-content: center; */
+  /* margin: auto;
+  display: block; */
+
   padding: 9px 16px;
   width: 170px;
   height: 48px;
@@ -178,6 +183,7 @@ button a {
 }
 .btn-container {
   margin-top: 64px;
+
   display: flex;
   justify-content: center;
 }
